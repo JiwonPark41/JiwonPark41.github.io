@@ -1,30 +1,31 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title }} | {{ site.title }}</title>
-  {% include head-custom.html %}
-</head>
-<body>
-  <header>
-    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-    <p>{{ site.description }}</p>
-    <nav>
-      {% for item in site.nav %}
-        <a href="{{ item.link | relative_url }}">{{ item.name }}</a>
-      {% endfor %}
-    </nav>
-    <hr>
-  </header>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
 
-  <main>
+  <body>
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
     {{ content }}
-  </main>
 
-  <footer class="footer">
-    <hr>
-    <p>&copy; {{ "now" | date: "%Y" }} {{ site.author.name }} • {{ site.author.affiliation }}</p>
-  </footer>
-</body>
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
 </html>
