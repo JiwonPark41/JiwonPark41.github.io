@@ -1,0 +1,37 @@
+title: "Jiwon Park"
+description: "Statistical Genetics • Epidemiology • PLACO+"
+url: ""   # e.g., https://jpark335.github.io (leave blank for now)
+baseurl: ""
+
+theme: jekyll-theme-minimal
+
+# Site-wide settings
+author:
+  name: "Jiwon Park"
+  email: "your.email@domain"
+  affiliation: "Johns Hopkins University"
+  location: "New York, NY"
+  orcid: ""
+  google_scholar: ""
+  github: "jpark335"
+  twitter: ""
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins:
+  - jekyll-seo-tag
+
+# Navigation
+nav:
+  - name: Home
+    link: /
+  - name: Publications
+    link: /publications
+  - name: Projects
+    link: /projects
+  - name: Software
+    link: /software
+  - name: CV
+    link: /assets/Jiwon_Park_CV.pdf
