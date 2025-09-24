@@ -1,6 +1,7 @@
 ---
 title: "A robust pleiotropy method with applications to lipid traits and to inflammatory bowel disease subtypes with sample overlap"
 collection: publications
+category: manuscripts
 permalink: /publication/park-2025-robust-pleiotropy-lipid-ibd
 date: 2025-09-04
 venue: "HGG Advances"
