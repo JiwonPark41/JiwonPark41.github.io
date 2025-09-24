@@ -26,9 +26,9 @@ My research focuses on developing and applying robust statistical methods for co
   <div style="flex:1 1 300px; min-width:280px">
     <h2>Education</h2>
     <ul style="list-style:none; padding-left:0">
-      <li><strong>Ph.D. in Statistics</strong>, University of Connecticut, 2023</li>
-      <li><strong>M.S. in Statistics</strong>, Kyungpook National University, 2017</li>
-      <li><strong>B.S. in Statistics</strong>, Kyungpook National University, 2015</li>
+      <li><strong>Ph.D. in Statistics</strong>,<br>University of Connecticut, 2023</li>
+      <li><strong>M.S. in Statistics</strong>,<br>Kyungpook National University, 2017</li>
+      <li><strong>B.S. in Statistics</strong>,<br>Kyungpook National University, 2015</li>
     </ul>
   </div>
 
