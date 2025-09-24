@@ -1,6 +1,7 @@
 ---
 title: "The Association between Polypharmacy and Dementia: A Nested Case-Control Study Based on a 12-Year Longitudinal Cohort Database in South Korea"
 collection: publications
+category: manuscripts
 permalink: /publication/park-2017-association-polypharmacy-dementia
 date: 2017-01-05
 venue: "PLOS ONE"
