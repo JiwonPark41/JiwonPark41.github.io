@@ -5,7 +5,7 @@ permalink: /
 author_profile: true    
 ---
 
-I am a Postdoctoral Fellow in the Department of Epidemiology at the Johns Hopkins Bloomberg School of Public Health, USA (mentor: Dr. Debashree Ray). I received my Ph.D. in Statistics from the University of Connecticut in August 2023 (advisor: Dr. Dipak K. Dey; co-advisor: Dr. Victor Hugo Lachos Dávila). I completed my M.S. in Statistics at Kyungpook National University, South Korea in 2017 (advisor: Dr. Dalho Kim) and my B.S. in Statistics at the same institution in 2015.
+I am a Postdoctoral Fellow in the Department of Epidemiology at the Johns Hopkins Bloomberg School of Public Health, USA (mentor: Dr. Debashree Ray). I received my Ph.D. in Statistics from the University of Connecticut in August 2023 (advisor: Dr. Dipak K. Dey; co-advisor: Dr. Victor Hugo Lachos Dávila). I completed my M.S. in Statistics at the College of Natural Sciences, Kyungpook National University, South Korea in 2017 (advisor: Dr. Dalho Kim), and my B.S. in Statistics at the same college in 2015.
 
 My research focuses on developing and applying robust statistical methods for complex biomedical and genetic data. I am particularly interested in pleiotropy detection methods under composite null hypotheses (PLACO+), GWAS summary-statistics approaches, and study designs involving case–control overlap and correlated data. In addition, I have worked extensively on mixture and survival models for censored outcomes, high-dimensional regression and variable selection, and building reproducible computational pipelines (R/HPC) to enable large-scale analyses.
 
