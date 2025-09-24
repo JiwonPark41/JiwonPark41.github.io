@@ -1,6 +1,7 @@
 ---
 title: "Generic Versus Brand-Name Immunosuppression Following Heart Transplant: An Analysis of the UNOS Database"
 collection: publications
+category: manuscripts
 permalink: /publication/mahajan-2025-generic-vs-brand-immunosuppression
 date: 2025-06-01
 venue: "Clinical Transplantation"
