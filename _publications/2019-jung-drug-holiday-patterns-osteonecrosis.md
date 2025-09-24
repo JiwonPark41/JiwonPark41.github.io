@@ -1,6 +1,7 @@
 ---
 title: "Drug holiday patterns and bisphosphonate-related osteonecrosis of the jaw"
 collection: publications
+category: manuscripts
 permalink: /publication/jung-2019-drug-holiday-patterns-osteonecrosis
 date: 2019-03-01
 venue: "Oral Diseases"
