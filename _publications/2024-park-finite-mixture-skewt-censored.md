@@ -1,6 +1,7 @@
 ---
 title: "Finite mixture of regression models for censored data based on the skew-t distribution"
 collection: publications
+category: manuscripts
 permalink: /publication/park-2024-finite-mixture-skewt-censored
 date: 2024-02-10
 venue: "Computational Statistics"
