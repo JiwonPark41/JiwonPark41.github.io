@@ -1,6 +1,7 @@
 ---
 title: "Oral Bisphosphonates and Upper Gastrointestinal Cancer Risks in Asians with Osteoporosis: A Nested Case-Control Study"
 collection: publications
+category: manuscripts
 permalink: /publication/park-2016-oral-bisphosphonates-upper-gi-cancer
 date: 2016-03-01
 venue: "PLOS ONE"
