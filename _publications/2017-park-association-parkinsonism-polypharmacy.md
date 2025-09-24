@@ -1,6 +1,7 @@
 ---
 title: "Association of Parkinsonism or Parkinson Disease with Polypharmacy in the Year Preceding Diagnosis: A Nested Case-Control Study in South Korea"
 collection: publications
+category: manuscripts
 permalink: /publication/park-2017-parkinsonism-polypharmacy
 date: 2017-06-20
 venue: "Drug Safety"
