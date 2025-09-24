@@ -1,6 +1,7 @@
 ---
 title: "The skew-t censored regression model: Parameter estimation via an EM-type algorithm"
 collection: publications
+category: manuscripts
 permalink: /publication/lachos-2022-skewt-censored-regression
 date: 2022-05-31
 venue: "Communications for Statistical Applications and Methods"
