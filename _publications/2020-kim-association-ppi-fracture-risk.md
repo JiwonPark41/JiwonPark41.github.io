@@ -1,6 +1,7 @@
 ---
 title: "Association between proton pump inhibitor use and risk of fracture: A population-based case-control study"
 collection: publications
+category: manuscripts
 permalink: /publication/kim-2020-ppi-fracture-risk
 date: 2020-07-30
 venue: "PLOS ONE"
