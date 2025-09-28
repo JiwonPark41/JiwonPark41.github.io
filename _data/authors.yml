@@ -1,18 +1,19 @@
 # Authors
 
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+  jiwon:
+  name: "Jiwon Park"
+  avatar: "/images/profile_1.png"   # ← 지금 열리는 그 URL과 동일
+  bio: "Postdoctoral Fellow, Department of Epidemiology, Johns Hopkins University Bloomberg School of Public Health"
+  location: "Baltimore, MD"
+  employer: "Johns Hopkins University"
+  email: "jpark335@jh.edu"
+  links:
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=9XWCyEoAAAAJ&hl=ko"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/0000-0003-0776-4209"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/JiwonPark41"
