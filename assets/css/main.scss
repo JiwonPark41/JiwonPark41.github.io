@@ -143,3 +143,25 @@ label[for="nav-trigger"] {
 .author__urls a {
   line-height: 1.4;
 }
+
+/* ===== Force avatar always circular (mobile & desktop) ===== */
+.author__avatar img,
+.author__avatar .u-photo {
+  display: block !important;
+  width: 180px;
+  height: 180px;
+  max-width: none !important;   /* 부모 width에 따라 찌그러지지 않게 */
+  aspect-ratio: 1 / 1;          /* 정사각형 강제 */
+  object-fit: cover;            /* 이미지가 잘려도 꽉 차게 */
+  border-radius: 50% !important;/* 원형 */
+  margin: 0 auto;               /* 가운데 정렬 */
+}
+
+/* 모바일에서는 조금 줄여서 원 유지 */
+@media (max-width: 480px) {
+  .author__avatar img,
+  .author__avatar .u-photo {
+    width: 140px;
+    height: 140px;
+  }
+}
