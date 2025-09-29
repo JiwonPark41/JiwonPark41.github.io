@@ -3,9 +3,7 @@
 
 /*
  * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ * The first two lines (front matter) are required by Jekyll.
  */
 
 @import
@@ -37,10 +35,11 @@
     "layout/sidebar",
     "layout/json_cv",
 
+    /* Icons */
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands",
-    "vendor/academicons/academicons";   // ✅ Academicons 추가 (Google Scholar, ORCID용)
+    "vendor/academicons/academicons";  /* ✅ Google Scholar/ORCID용 */
 
 /* ============================================================
    Overrides: layout fixes
@@ -110,6 +109,7 @@ label[for="nav-trigger"] {
   display: block !important;
   width: 180px;
   height: 180px;
+  max-width: 100%;
   object-fit: cover;
   border-radius: 50%;
   border: 4px solid #eee;
@@ -143,3 +143,54 @@ label[for="nav-trigger"] {
 .author__urls { display: block !important; }
 .author__urls-wrapper .btn,
 .author__urls-wrapper button { display: none !important; }
+
+/* Fixed circular avatar container */
+.author__avatar,
+.sidebar .author__avatar,
+.page__sidebar .author__avatar {
+  display: block !important;
+  width: 180px !important;
+  height: 180px !important;
+  min-width: 180px !important;
+  min-height: 180px !important;
+  max-width: 180px !important;
+  max-height: 180px !important;
+
+  border-radius: 50% !important;
+  overflow: hidden !important;
+  margin: 0 auto 16px !important;
+  flex: 0 0 180px !important;
+  -webkit-flex: 0 0 180px !important;
+  transform: none !important;
+  aspect-ratio: 1 / 1 !important;
+  box-sizing: content-box !important;
+}
+
+/* Image fills the circle */
+.author__avatar img,
+.author__avatar .u-photo,
+img.u-photo {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  object-fit: cover !important;
+  border-radius: 50% !important;
+  margin: 0 !important;
+  transform: none !important;
+}
+
+@media (max-width: 480px) {
+  .author__avatar,
+  .sidebar .author__avatar,
+  .page__sidebar .author__avatar {
+    width: 140px !important;
+    height: 140px !important;
+    min-width: 140px !important;
+    min-height: 140px !important;
+    max-width: 140px !important;
+    max-height: 140px !important;
+    flex: 0 0 140px !important;
+    -webkit-flex: 0 0 140px !important;
+  }
+}
