@@ -2,7 +2,7 @@
 
   jiwon:
   name: "Jiwon Park"
-  avatar: "/images/profile_1.png"   # ← 지금 열리는 그 URL과 동일
+  avatar: "profile_1.png"  
   bio: "Postdoctoral Fellow, Department of Epidemiology, Johns Hopkins University Bloomberg School of Public Health"
   location: "Baltimore, MD"
   employer: "Johns Hopkins University"
