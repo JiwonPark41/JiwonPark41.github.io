@@ -1,24 +1,23 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
-# server process.
+# AcademicPages configuration file
 
 # Basic Site Settings
 locale                   : "en-US"
 title                    : "Jiwon Park"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"
-url                      : https://jiwonpark41.github.io
+name                     : "Jiwon Park"
+description              : "Postdoctoral Fellow, Department of Epidemiology, Johns Hopkins University Bloomberg School of Public Health"
+url                      : "https://jiwonpark41.github.io"
 baseurl                  : "" 
 repository               : "JiwonPark41/JiwonPark41.github.io"
 
-# --- Theme (enable sidebar author box / avatar) ---
+# --- Theme ---
+remote_theme: academicpages/academicpages.github.io   # ✅ AcademicPages 원격 테마
+site_theme: "default"
 
 plugins:
+  - jekyll-remote-theme   # ✅ 꼭 필요
   - jekyll-include-cache
   - jekyll-feed
   - jekyll-gist
@@ -35,31 +34,6 @@ whitelist:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
-
-# Site Author - controls author box in the sidebar
-author:
-  jiwon: 
-    avatar: "profile_1.png"
-    name: "Jiwon Park"
-    pronouns:
-    bio: "Postdoctoral Fellow, Department of Epidemiology, Johns Hopkins University Bloomberg School of Public Health"
-    location: "Baltimore, MD"
-    employer: "Johns Hopkins University"
-    uri:
-    email: "jpark335@jh.edu"
-    links:
-      - label: "Google Scholar"
-        icon: "ai ai-google-scholar"
-        url: "https://scholar.google.com/citations?user=9XWCyEoAAAAJ&hl=ko"
-      - label: "ORCID"
-        icon: "ai ai-orcid"
-        url: "https://orcid.org/0000-0003-0776-4209"
-      - label: "GitHub"
-        icon: "fab fa-github"
-        url: "https://github.com/JiwonPark41"
-      - label: "Email"
-        icon: "fas fa-envelope"
-        url: "mailto:jpark335@jh.edu"
 
 # Publication Category
 publication_category:
@@ -137,7 +111,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" 
+  provider               : "false" 
   google:
     tracking_id          :
 
@@ -223,7 +197,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      author: jiwon        # ✅ 추가
+      author: jiwon
       read_time: true
       comments: true
       share: true
@@ -236,7 +210,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      author: jiwon        # ✅ 추가
+      author: jiwon
       pagination: false 
 
   - scope:
@@ -245,7 +219,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      author: jiwon        # ✅ 추가
+      author: jiwon
       share: true
       comments: true
       pagination: false 
@@ -256,7 +230,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      author: jiwon        # ✅ 추가
+      author: jiwon
       share: true
       comments: true
       pagination: false 
@@ -267,7 +241,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      author: jiwon        # ✅ 추가
+      author: jiwon
       share: true
       comment: true
       pagination: false 
@@ -278,10 +252,9 @@ defaults:
     values:
       layout: talk
       author_profile: true
-      author: jiwon        # ✅ 추가
+      author: jiwon
       share: true
       pagination: false 
-
 
 # Sass/SCSS
 sass:
