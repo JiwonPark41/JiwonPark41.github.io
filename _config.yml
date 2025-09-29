@@ -218,6 +218,7 @@ defaults:
       comments: true
       share: true
       related: true
+      pagination: false 
 
   - scope:
       path: ""
@@ -226,6 +227,7 @@ defaults:
       layout: single
       author_profile: true
       author: jiwon        # ✅ 추가
+      pagination: false 
 
   - scope:
       path: ""
@@ -236,6 +238,7 @@ defaults:
       author: jiwon        # ✅ 추가
       share: true
       comments: true
+      pagination: false 
 
   - scope:
       path: ""
@@ -246,6 +249,7 @@ defaults:
       author: jiwon        # ✅ 추가
       share: true
       comments: true
+      pagination: false 
 
   - scope:
       path: ""
@@ -256,6 +260,7 @@ defaults:
       author: jiwon        # ✅ 추가
       share: true
       comment: true
+      pagination: false 
 
   - scope:
       path: ""
@@ -265,6 +270,7 @@ defaults:
       author_profile: true
       author: jiwon        # ✅ 추가
       share: true
+      pagination: false 
 
 
 # Sass/SCSS
