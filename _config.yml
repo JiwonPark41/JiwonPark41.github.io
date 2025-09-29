@@ -37,18 +37,20 @@ whitelist:
   - jemoji
 
 # Site Author - controls author box in the sidebar
-author:
-  avatar           : "/images/profile_1.png"   # ✅ ?v=2 제거
-  name             : "Jiwon Park"
-  pronouns         : 
-  bio: "Postdoctoral Fellow, Department of Epidemiology, Johns Hopkins University Bloomberg School of Public Health"
-  location         : "Baltimore, MD"
-  employer         : "Johns Hopkins University"
-  uri              : 
-  email            : "jpark335@jh.edu" 
-  googlescholar    : "https://scholar.google.com/citations?user=9XWCyEoAAAAJ&hl=ko"
-  orcid            : "https://orcid.org/0000-0003-0776-4209"
-  github           : "JiwonPark41"
+authors:
+  jiwon: 
+    avatar: "/images/profile_1.png"
+    name: "Jiwon Park"
+    pronouns:
+    bio: "Postdoctoral Fellow, Department of Epidemiology, Johns Hopkins University Bloomberg School of Public Health"
+    location: "Baltimore, MD"
+    employer: "Johns Hopkins University"
+    uri:
+    email: "jpark335@jh.edu"
+    googlescholar: "https://scholar.google.com/citations?user=9XWCyEoAAAAJ&hl=ko"
+    orcid: "https://orcid.org/0000-0003-0776-4209"
+    github: "JiwonPark41"
+
 
 # Publication Category
 publication_category:
