@@ -3,6 +3,7 @@ layout: single
 title: "Talks & Presentations"
 permalink: /talks/
 author_profile: true
+pagination: false
 ---
 
 ## Contributed Presentations (Talks & Posters)
