@@ -17,6 +17,8 @@ baseurl                  : ""
 repository               : "JiwonPark41/JiwonPark41.github.io"
 
 # --- Theme (enable sidebar author box / avatar) ---
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default"
 
 plugins:
   - jekyll-include-cache
