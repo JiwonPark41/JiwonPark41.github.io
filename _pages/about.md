@@ -4,6 +4,7 @@ title: "About Me"
 permalink: /            
 author_profile: true  
 author: jiwon
+pagination: false
 ---
 
 I am a Postdoctoral Fellow in the Department of Epidemiology at the Johns Hopkins Bloomberg School of Public Health, USA (mentor: Dr. Debashree Ray). I received my Ph.D. in Statistics from the University of Connecticut in August 2023 (advisor: Dr. Dipak K. Dey; co-advisor: Dr. Victor Hugo Lachos Dávila). I completed my M.S. in Statistics at the College of Natural Sciences, Kyungpook National University, South Korea in 2017 (advisor: Dr. Dalho Kim), and my B.S. in Statistics at the same college in 2015.
