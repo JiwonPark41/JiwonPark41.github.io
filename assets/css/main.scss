@@ -189,3 +189,64 @@ label[for="nav-trigger"] {
   }
 }
 
+/* ===== Bulletproof hard-fixed circular avatar ===== */
+
+/* 1) container is a fixed circle that cannot shrink */
+.author__avatar,
+.sidebar .author__avatar,
+.page__sidebar .author__avatar {
+  display: block !important;
+
+  width: 180px !important;
+  height: 180px !important;
+  min-width: 180px !important;
+  min-height: 180px !important;
+  max-width: 180px !important;
+  max-height: 180px !important;
+
+  border-radius: 50% !important;
+  overflow: hidden !important;
+  margin: 0 auto 16px !important;
+
+  /* stop flexbox from squeezing it */
+  flex: 0 0 180px !important;
+  -webkit-flex: 0 0 180px !important;
+
+  /* neutralize any transforms coming from the theme */
+  transform: none !important;
+
+  /* safety net for odd layouts */
+  aspect-ratio: 1 / 1 !important;
+  box-sizing: content-box !important;
+}
+
+/* 2) image fills the circle without distortion */
+.author__avatar img,
+.author__avatar .u-photo,
+img.u-photo {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  object-fit: cover !important;
+  border-radius: 50% !important;
+  margin: 0 !important;
+  transform: none !important;
+}
+
+/* 3) smaller (but still fixed circle) on very small screens */
+@media (max-width: 480px) {
+  .author__avatar,
+  .sidebar .author__avatar,
+  .page__sidebar .author__avatar {
+    width: 140px !important;
+    height: 140px !important;
+    min-width: 140px !important;
+    min-height: 140px !important;
+    max-width: 140px !important;
+    max-height: 140px !important;
+    flex: 0 0 140px !important;
+    -webkit-flex: 0 0 140px !important;
+  }
+}
+
