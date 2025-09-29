@@ -17,7 +17,6 @@ baseurl                  : ""
 repository               : "JiwonPark41/JiwonPark41.github.io"
 
 # --- Theme (enable sidebar author box / avatar) ---
-remote_theme: academicpages/academicpages
 
 plugins:
   - jekyll-include-cache
