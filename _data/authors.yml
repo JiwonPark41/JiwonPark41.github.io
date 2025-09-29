@@ -1,5 +1,3 @@
-# Authors
-
 jiwon:
   name: "Jiwon Park"
   avatar: "profile_1.png"  
@@ -9,7 +7,7 @@ jiwon:
   email: "jpark335@jh.edu"
   links:
     - label: "Google Scholar"
-      icon: "fas fa-graduation-cap"
+      icon: "ai ai-google-scholar"
       url: "https://scholar.google.com/citations?user=9XWCyEoAAAAJ&hl=ko"
     - label: "ORCID"
       icon: "ai ai-orcid"
