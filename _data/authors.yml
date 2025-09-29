@@ -1,16 +1,16 @@
 jiwon:
   name: "Jiwon Park"
-  avatar: "profile_1.png"  
+  avatar: "profile_1.png"
   bio: "Postdoctoral Fellow, Department of Epidemiology, Johns Hopkins University Bloomberg School of Public Health"
   location: "Baltimore, MD"
   employer: "Johns Hopkins University"
   email: "jpark335@jh.edu"
   links:
     - label: "Google Scholar"
-      icon: "ai ai-google-scholar"
+      icon: "fas fa-graduation-cap"   # 임시 FA 아이콘
       url: "https://scholar.google.com/citations?user=9XWCyEoAAAAJ&hl=ko"
     - label: "ORCID"
-      icon: "ai ai-orcid"
+      icon: "fas fa-id-badge"         # 임시 FA 아이콘
       url: "https://orcid.org/0000-0003-0776-4209"
     - label: "GitHub"
       icon: "fab fa-github"
