@@ -5,16 +5,17 @@ jiwon:
   location: "Baltimore, MD"
   employer: "Johns Hopkins University"
   email: "jpark335@jh.edu"
-  links:
-    - label: "Google Scholar"
-      icon: "fas fa-graduation-cap"   # 임시 FA 아이콘
-      url: "https://scholar.google.com/citations?user=9XWCyEoAAAAJ&hl=ko"
-    - label: "ORCID"
-      icon: "fas fa-id-badge"         # 임시 FA 아이콘
-      url: "https://orcid.org/0000-0003-0776-4209"
-    - label: "GitHub"
-      icon: "fab fa-github"
+
+  social:
+    - icon: "fab fa-github"
+      label: "GitHub"
       url: "https://github.com/JiwonPark41"
-    - label: "Email"
-      icon: "fas fa-envelope"
+    - icon: "ai ai-google-scholar"
+      label: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=9XWCyEoAAAAJ&hl=ko"
+    - icon: "ai ai-orcid"
+      label: "ORCID"
+      url: "https://orcid.org/0000-0003-0776-4209"
+    - icon: "fas fa-envelope-square"
+      label: "Email"
       url: "mailto:jpark335@jh.edu"
