@@ -15,3 +15,6 @@ jiwon:
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/JiwonPark41"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:jpark335@jh.edu"
