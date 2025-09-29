@@ -37,9 +37,9 @@ whitelist:
   - jemoji
 
 # Site Author - controls author box in the sidebar
-authors:
+author:
   jiwon: 
-    avatar: "/images/profile_1.png"
+    avatar: "profile_1.png"
     name: "Jiwon Park"
     pronouns:
     bio: "Postdoctoral Fellow, Department of Epidemiology, Johns Hopkins University Bloomberg School of Public Health"
