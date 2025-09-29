@@ -250,3 +250,8 @@ img.u-photo {
   }
 }
 
+/* Always show author links and hide the "Follow" button */
+.author__urls { display: block !important; }
+.author__urls-wrapper .btn,
+.author__urls-wrapper button { display: none !important; }
+
