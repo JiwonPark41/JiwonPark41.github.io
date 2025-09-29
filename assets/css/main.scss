@@ -1,33 +1,46 @@
-/* ============================================================
-   Avatar Fix: always perfect circle (desktop & mobile)
-   ============================================================ */
+---
+---
 
-.author__avatar {
-  display: block !important;
-  text-align: center;
-  margin: 0 auto 16px !important;
-  width: 180px !important;
-  height: 180px !important;
-  aspect-ratio: 1 / 1 !important;
-}
+/*
+ * This file controls what is imported from /_sass
+ *
+ * Note that the files are processed in the order they are imported, so they are partly
+   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ */
 
-.author__avatar img,
-.author__avatar .u-photo {
-  display: block !important;
-  width: 100% !important;
-  height: 100% !important;
-  max-width: none !important;
-  aspect-ratio: 1 / 1 !important;
-  object-fit: cover !important;
-  border-radius: 50% !important;
-  margin: 0 auto !important;
-  border: 4px solid #eee; /* optional ring */
-}
+@import
+    "vendor/breakpoint/breakpoint",
 
-/* Mobile: smaller avatar but still perfect circle */
-@media (max-width: 480px) {
-  .author__avatar {
-    width: 140px !important;
-    height: 140px !important;
-  }
-}
+    "themes",
+    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+
+    "include/mixins",
+    "vendor/susy/susy",
+
+    "layout/reset",
+    "layout/base",
+
+    "include/utilities",
+    "layout/tables",
+    "layout/buttons",
+    "layout/notices",
+    "layout/masthead",
+    "layout/navigation",
+    "layout/footer",
+    "syntax",
+
+    "layout/forms",
+
+    "layout/page",
+    "layout/archive",
+    "layout/sidebar",
+    "layout/json_cv",
+
+    "vendor/font-awesome/fontawesome",
+    "vendor/font-awesome/solid",
+    "vendor/font-awesome/brands",
+
+    /* ✅ put all our fixes in a separate partial */
+    "overrides"
+;
