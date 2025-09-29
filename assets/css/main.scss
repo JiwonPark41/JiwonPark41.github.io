@@ -143,3 +143,49 @@ label[for="nav-trigger"] {
 .author__urls a {
   line-height: 1.4;
 }
+
+/* ==== Avatar container: hard-fixed circle ==== */
+.author__avatar,
+.sidebar .author__avatar,
+.page__sidebar .author__avatar {
+  display: block !important;
+  width: 180px !important;
+  height: 180px !important;
+  min-width: 180px !important;
+  min-height: 180px !important;
+  max-width: 180px !important;
+  max-height: 180px !important;
+
+  border-radius: 50% !important;  /* the container itself is a circle */
+  overflow: hidden !important;     /* hide overflow so image is clipped to circle */
+  margin: 0 auto 16px !important;  /* center in sidebar */
+  flex: 0 0 auto !important;       /* prevent flexbox from squashing it */
+  aspect-ratio: 1 / 1 !important;  /* safety net */
+}
+
+/* Image fills the circle without distortion */
+.author__avatar img,
+.author__avatar .u-photo {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;      /* defeat global img rules */
+  object-fit: cover !important;     /* fill circle nicely */
+  border-radius: 50% !important;    /* keep edges round */
+  margin: 0 !important;
+}
+
+/* Optional: smaller but still circular on very small screens */
+@media (max-width: 480px) {
+  .author__avatar,
+  .sidebar .author__avatar,
+  .page__sidebar .author__avatar {
+    width: 140px !important;
+    height: 140px !important;
+    min-width: 140px !important;
+    min-height: 140px !important;
+    max-width: 140px !important;
+    max-height: 140px !important;
+  }
+}
+
