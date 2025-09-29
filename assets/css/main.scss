@@ -1,4 +1,5 @@
 ---
+---
 
 /*
  * This file controls what is imported from /_sass
@@ -38,4 +39,50 @@
 
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands"
+    "vendor/font-awesome/brands";
+
+/* ============================================================
+   Overrides: hide menu toggle & prevent hidden nav/sidebar
+   (Minimal, non-destructive — can be removed anytime)
+   ============================================================ */
+
+/* Hide common toggle triggers used by this theme family */
+.nav-trigger,
+.sidebar-toggle,
+.greedy-nav__toggle,
+#sidebar-checkbox,
+label[for="nav-trigger"] {
+  display: none !important;
+}
+
+/* Ensure nav/sidebar remain visible even if a toggle class is expected */
+.site-nav,
+.sidebar,
+.masthead__menu {
+  transform: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Avoid layout shift if the theme reserves space for the toggle */
+.masthead,
+.masthead__menu,
+.site-nav {
+  transition: none !important;
+}
+
+/* Optional: keep sidebar fixed/visible on desktop widths */
+@media (min-width: 992px) {
+  .sidebar {
+    left: 0 !important;
+  }
+}
+
+/* Keep author avatar boxes visible if theme had hidden states */
+.author__avatar img,
+.author__avatar .u-photo {
+  display: block !important;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
