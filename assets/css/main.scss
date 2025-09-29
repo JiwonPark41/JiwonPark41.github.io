@@ -1,11 +1,8 @@
 ---
 ---
-
 /*
  * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ * Files are processed in order. The two lines of front matter above are required by Jekyll.
  */
 
 @import
@@ -39,8 +36,83 @@
 
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands",
+    "vendor/font-awesome/brands";
 
-    /* ✅ put all our fixes in a separate partial */
-    "overrides"
-;
+/* ============================================================
+   Overrides
+   - Hide menu toggle
+   - Keep nav/sidebar visible
+   - Add sidebar padding
+   - Avatar: force perfect circle (desktop & mobile)
+   ============================================================ */
+
+/* Hide common toggle triggers */
+.nav-trigger,
+.sidebar-toggle,
+.greedy-nav__toggle,
+#sidebar-checkbox,
+label[for="nav-trigger"] {
+  display: none !important;
+}
+
+/* Ensure nav/sidebar remain visible even if a toggle is expected */
+.site-nav,
+.sidebar,
+.masthead__menu {
+  transform: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Avoid layout shift if the theme reserves space for the toggle */
+.masthead,
+.masthead__menu,
+.site-nav {
+  transition: none !important;
+}
+
+/* Sidebar inner gutter */
+.sidebar,
+.site-sidebar,
+.page__sidebar,
+.sidebar__inner,
+.sidebar-sticky,
+.sidebar-content,
+#sidebar {
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+  box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+  .sidebar,
+  .site-sidebar,
+  .page__sidebar,
+  .sidebar__inner,
+  .sidebar-sticky,
+  .sidebar-content,
+  #sidebar {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+}
+
+/* ===== Avatar: always a perfect circle ===== */
+
+/* Square container so it cannot squash */
+.author__avatar {
+  display: block !important;
+  text-align: center !important;
+  margin: 0 auto 16px !important;
+  width: 180px !important;
+  height: 180px !important;
+  aspect-ratio: 1 / 1 !important;
+}
+
+/* Image fills container and stays circular */
+.author__avatar img,
+.author__avatar .u-photo {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
