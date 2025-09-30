@@ -7,6 +7,7 @@ jiwon:
   email: "jpark335@jh.edu"
   links:
     - label: "GitHub"
+      icon: "fab fa-github"
       url: "https://github.com/JiwonPark41"
     - label: "Google Scholar"
       url: "https://scholar.google.com/citations?user=9XWCyEoAAAAJ&hl=ko"
