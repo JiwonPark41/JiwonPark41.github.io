@@ -5,7 +5,8 @@ jiwon:
   location: "Baltimore, MD"
   employer: "Johns Hopkins University"
   email: "jpark335@jh.edu"
-  social:
+  
+  links:
     - icon: "fab fa-github"
       label: "GitHub"
       url: "https://github.com/JiwonPark41"
