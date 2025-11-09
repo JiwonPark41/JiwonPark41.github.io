@@ -16,5 +16,5 @@ pagination: false
 - 35th New England Statistics Symposium, Storrs, CT, May 2022
 
 ## Invited Presentations
-- Division of Statistics and Data Science, Department of Mathematical Sciences, University of Cincinnati, Cincinnati, OH, Nov 2025 (Scheduled)
+- Division of Statistics and Data Science, Department of Mathematical Sciences, University of Cincinnati, Cincinnati, OH, Nov 2025
 - Department of Mathematics and Statistics, Auburn University, Auburn, AL, April 2025
