@@ -7,6 +7,9 @@ pagination: false
 ---
 
 ## Instructor
+**University of Massachusetts Lowell**
+- MATH 3850 Applied Statistics (Fall 2026)
+
 **Andong National University**
 - Introduction to Statistics (Spring 2019)
 - Statistical Methods (Spring 2019)
