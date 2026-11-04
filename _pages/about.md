@@ -30,10 +30,16 @@ My research focuses on developing statistical methodologies for complex biomedic
   <div style="flex:1 1 300px; min-width:280px">
   <h2>Academic Appointments</h2>
   <ul style="list-style:none; padding-left:0">
-    <li><strong>Assistant Professor</strong>,<br>
-    University of Massachusetts Lowell, 2026–Present</li>
-    <li><strong>Postdoctoral Fellow</strong>,<br>
-    Johns Hopkins Bloomberg School of Public Health, 2023–2026</li>
+    <li>
+      <strong>Assistant Professor</strong><br>
+      Department of Mathematics and Statistics<br>
+      University of Massachusetts Lowell, 2026–Present
+    </li>
+    <li>
+      <strong>Postdoctoral Fellow</strong><br>
+      Department of Epidemiology<br>
+      Johns Hopkins Bloomberg School of Public Health, 2023–2026
+    </li>
   </ul>
 
   <h2>Education</h2>
